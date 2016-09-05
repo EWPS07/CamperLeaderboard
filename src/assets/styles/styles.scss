@@ -1,0 +1,102 @@
+$green:rgb(0, 100, 0);
+$white: #ffffff;
+$permanentMarker: 'Permanent Marker', cursive;
+$pontanoSans: 'Rubik One', sans-serif;
+$YatraOne: 'Yatra One', cursive;
+$kavoon: 'Kavoon', cursive;
+$bangers: 'Bangers', cursive;
+$bevan: 'Bevan', cursive;
+$shadows: 'Shadows Into Light Two', cursive;
+$bungeeInline: 'Bungee Inline', cursive;
+$syncopate: 'Syncopate', sans-serif;
+$michroma: 'Michroma', sans-serif;
+$size: 2vw;;
+
+
+
+h1 {
+  margin-top: 2vw;
+  font-size: 3vw;
+  margin-bottom: 2vw;
+  padding-top: 0; }
+
+body {
+  max-height: 70vh;
+  width: 100vw;
+  font-family: "Michroma", sans-serif;
+  color: darkgreen;
+  background-color: #ffffff; }
+
+#recent, #allTime {
+  border-radius: 1%;
+  padding: 0;
+  height: 80vh;
+  overflow: scroll;
+  color: black;
+  margin-top: 26vw; }
+  #recent .username, #recent .recent, #recent .alltime, #allTime .username, #allTime .recent, #allTime .alltime {
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: darkgreen;
+    margin-top: 16vw; }
+
+.camper-row {
+  margin: 0;
+  height: 9vw;
+  padding: 1vw; }
+
+.camperImg {
+  height: 7vw;
+  width: 7vw;
+  border: solid darkgreen 0.25vw;
+  border-radius: 100%; }
+
+#infoKey {
+  background-color: darkgreen;
+  color: #ffffff;
+  font-size: 1.5vw;
+  padding-top: 0;
+  padding-bottom: 0.5vw;
+  height: 2vw;
+  margin-bottom: 0; }
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+  margin-right: 6vw;
+  margin-left: 6vw; }
+
+#header {
+  color: #ffffff;
+  background-color: darkgreen;
+  margin-bottom: 10vw;
+  padding-top: 0;
+  height: 20vh; }
+  #header button {
+    background-color: #ffffff;
+    color: darkgreen;
+    margin-bottom: 2vw;
+    font-size: 1vw; }
+    #header button:active, #header button:focus, #header button:hover, #header button:visited {
+      outline: none; }
+
+#footer {
+  background-color: darkgreen;
+  color: #ffffff;
+  padding-top: 2vw;
+  padding-bottom: 2vw; }
+
+@media (min-width: 240px) and (max-width: 683px) and (min-resolution: 1dppx) {
+  #header {
+    height: 13vh; }
+    #header h1 {
+      font-size: 4vw; }
+    #header button, #header #infoKey {
+      font-size: 2vw; }
+
+  #recent, #allTime {
+    margin-right: 0vw;
+    margin-left: 0vw; }
+
+  #infoKey {
+    bottom: 10vh; } }
